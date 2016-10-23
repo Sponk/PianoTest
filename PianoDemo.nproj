@@ -1,0 +1,20 @@
+(project 
+	(name "Piano Demo")
+	(author "Yannick Pflanzer")
+	(version "1.0")
+	(neo-version "0.6")
+	(start-level "assets/main.llvl")
+	(assets "assets")
+	(description "A small demo project showing off 3D sound and a first person camera.")
+	(plugins 
+	"SDLGame"
+	"LuaScripting"
+	"CommonBehaviors"
+	"AssetLoading"
+	"OpenALContext"
+	"GL3Renderer"
+	"BulletPhysics"
+	)
+	(additional-files 
+	)
+)
